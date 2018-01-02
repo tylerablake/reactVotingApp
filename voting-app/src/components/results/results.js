@@ -55,15 +55,15 @@ class Results extends Component {
           <div>
             <span className="label label-danger">Angular: {this.votesAngularInPercent().toFixed(2) + '%'}</span>
             <div className="progress progress-striped active">
-              <div className="progress-bar progress-bar-danger" style={this.votesAngularInPercentStyle()}></div>
+              <div className="progress-bar bg-danger" style={this.votesAngularInPercentStyle()}></div>
             </div>
             <span className="label label-info">React: {this.votesReactInPercent().toFixed(2) + '%'}</span>
             <div className="progress progress-striped active">
-              <div className="progress-bar progress-bar-info" style={this.votesReactInPercentStyle()}></div>
+              <div className="progress-bar bg-info" style={this.votesReactInPercentStyle()}></div>
             </div>
             <span className="label label-success">Vue.js: {this.votesVuejsInPercent().toFixed(2) + '%'}</span>
             <div className="progress progress-striped active">
-              <div className="progress-bar progress-bar-success" style={this.votesVuejsInPercentStyle()}></div>
+              <div className="progress-bar bg-success" style={this.votesVuejsInPercentStyle()}></div>
             </div>
           </div>
         )
